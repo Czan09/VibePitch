@@ -1,4 +1,4 @@
-const form = document.getElementById("joinForm");
+const form = document.getElementById("join-form");
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
