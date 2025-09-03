@@ -8,7 +8,7 @@ form.addEventListener("submit", async (e) => {
   const password = document.getElementById("password").value;
   const confirmPassword=document.getElementById("confirm-password").value;
   if(confirmPassword !== password){
-    
+    alert('the password do not match');
   }
   try {
     const response = await fetch("http://localhost:3000/add-user", {
